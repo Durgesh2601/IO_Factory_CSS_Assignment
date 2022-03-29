@@ -25,7 +25,6 @@
     right: 46rem;
 }
 #cont2{
-    border: 1px solid teal;
     width: 90%;
     margin: auto;
 }
@@ -40,4 +39,89 @@
     top: 5.7rem;
     background: #342679;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#cont3{
+    height: 35rem;
+    display: flex;
+    width: 96%;
+    margin: auto;
+    margin-top: 2.5%;
+    gap: 1%;
+}
+.sbCont3{
+    border: 1px solid teal;
+    width: 49%;
+    height: 99%;
+}
+#sbCont3_1{
+    border-radius: 1.25rem;
+    background: url(./Images/Bitmap.png);
+    background-size: 100% 100%;
+}
+#sbCont1_pd{
+    height: 28%;
+    width: 46.5%;
+    position: absolute;
+    bottom: 2.8rem;
+    background-color:#342679;
+    opacity: 0.8;
+}
+#sbCont1_pd > p:nth-child(1){
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2.62rem;
+    font-weight: 600;
+    font-family: 'Poppins';
+    position: absolute;
+    left: 1rem;
+    top: -0.5rem;
+}
+#sbCont1_pd > p:nth-child(2){
+    color: white;
+    font-size: 0.85rem;
+    line-height: 2.62rem;
+    font-family: 'Poppins';
+    position: absolute;
+    font-weight: 500;
+    left: 1rem;
+    top: 2rem;
+}
+#hr2{
+    width: 94%;
+    bottom: 3.3rem;
+    left: 1rem;
+    position: absolute;
+}
+#sbCont1_pd > div {
+    border: 1px solid white;
+    border-radius: 1.25rem;
+    width: 13%;
+    height: 15%;
+    position: absolute;
+    bottom: 1.4rem;
+    left: 1rem;
+}
+#sbCont1_pd > div > p{
+    color: white;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: -0.2rem;
+    left: 1rem;
+}
+#sbCont1_pd > div > img {
+    position: absolute;
+    right: 0.9rem;
+    top: 0.5rem;
+}
+#rated{
+    color: white;
+    bottom: 0.7rem;
+    right: 2rem;
+    position: absolute;
+    font-size: 0.9rem;
+}
+#sbCont1_pd > img{
+    position: absolute;
+    bottom: 1.7rem;
+    right: 4.6rem;
 }
