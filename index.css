@@ -200,3 +200,17 @@
     margin-top: 12%;
     margin-left: 47%;
 }
+#cont4{
+    border: 1px solid green;
+    height: 24rem;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 3%;
+}
+.sbCont4{
+    width: 32%;
+    height: 65%;
+    margin-top: 5%;
+    border: 1px solid teal;
+}
