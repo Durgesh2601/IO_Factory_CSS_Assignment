@@ -225,3 +225,23 @@
     line-height: 1rem;
     font-family: 'Poppins';
 }
+#cont5{
+    width: 10%;
+    height: 4rem;
+    margin: auto;
+}
+#cont5 > p{
+    font-size: 1rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 1rem;
+    margin-left: 7%;
+}
+#cont6{
+    border: 1px solid red;
+    width: 94%;
+    height: 25rem;
+    margin: auto;
+    background: url("./Images/bgbtm.png");
+    background-size: 100% 100%;
+}
